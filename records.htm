@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Previous Records</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  background-image: url("img/cover.png");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+} 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar-right {
+  float: right;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+	<div style="width: 980px; margin: 0 auto; overflow: hidden;">
+    <div style="float: left; width: 80%;"></div>
+    <div style="float: right; width: 20%;"></div>
+
+<div class="bg-img">
+	</div>
+	<div class="navbar">
+  <a href="Home.html">Home</a>
+  <a href="center.htm">Adoption Centers</a>
+  <div class="dropdown">
+    <button class="dropbtn">Services 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="consult.htm">Adoption consulation</a>
+      <a href="forms/form1.pdf">Adoption Application</a>
+      <a href="records.htm">Previous Records</a>
+    </div>
+  </div>
+   <a href="about.htm">About</a>
+   <a href="contact.htm">Contact</a>
+   <div class="navbar-right">
+<a href="login.htm" align="right">log-in</a>
+   <a href="signup.htm" align="right">sign-up</a>
+   </div>
+</div>
+<h1 align="middle">Previous adoption records</h1>
+</div>
+</body>
+</html>
